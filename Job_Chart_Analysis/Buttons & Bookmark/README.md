@@ -14,8 +14,8 @@ The report focuses on **median salary analysis, degree requirements, and country
 </p>
 
 <p align="center">
-  <img src="/images/fitler.png" width="800" alt="Bookmarks and Buttons Interaction">
-</p>
+  <img src="/images/overview.png" width="800" alt="Dashboard Overview">
+</p
 
 ---
 
