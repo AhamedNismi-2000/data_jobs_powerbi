@@ -98,13 +98,6 @@ All interactions are handled using **Power BI Bookmarks**, not visual-level filt
 ## 🛠 Tools & Skills
 - Power BI  
 - Bookmarks & Buttons  
-- Slicers & Cross-filtering  
+- Slicers 
 - Data Visualization & Storytelling  
 
----
-
-## 📎 Use Case
-Ideal for:
-- Power BI portfolio
-- Dashboard UI/UX demonstration
-- Academic or interview evaluation
