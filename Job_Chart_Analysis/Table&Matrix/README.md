@@ -40,9 +40,12 @@ The report includes **interactive filters**:
 ## 🖼️ Report Screenshots
 
 <p align="center">
-  <img src="/images/matrix_table.png" width="800" alt="Dashboard Overview">
+  <img src="/images/matrix_table.png" width="800" alt="Table & Matrices ">
 </p
 
+<p align="center">
+  <img src="/images/filter.png" width="800" alt="Dashboard Overview">
+</p
 
 
 
