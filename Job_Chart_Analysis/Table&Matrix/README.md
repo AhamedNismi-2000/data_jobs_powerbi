@@ -39,11 +39,12 @@ The report includes **interactive filters**:
 
 ## 🖼️ Report Screenshots
 
-### Power BI Table
-![Power BI Table Screenshot](images/excel_salary.png)
+<p align="center">
+  <img src="/images/matrix_table.png" width="800" alt="Dashboard Overview">
+</p
 
-### Power BI Matrix with Sparkline
-![Power BI Matrix Screenshot](images/matrix_table.png)
+
+
 
 > 📌 **Note:** Replace `excel_salary.png` and `matrix_sparkline.png` with your actual screenshot file names in the `images/` folder.
 
