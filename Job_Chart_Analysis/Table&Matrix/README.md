@@ -67,8 +67,4 @@ Below is a screenshot of the Power BI report showcasing the **Table and Matrix v
 2. Open it using **Power BI Desktop**
 3. Interact with the table and matrix visuals to explore job salary insights
 
----
-
-## 📬 Author
-**Nismi**
 
