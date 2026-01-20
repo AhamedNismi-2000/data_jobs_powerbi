@@ -1,106 +1,74 @@
-# 🌍 Global Job Market Analysis & Skill Correlation (2023)
+# 📊 Power BI Tables & Matrices – Job Market Salary Analysis
 
-## 📊 Project Overview
-This project presents a comprehensive **data analysis and visualization of global job postings** collected between **January 1, 2023 and December 31, 2023**.
-
-The goal of this project is to explore **relationships and correlations** between:
-- Job titles  
-- Required skills and skill count  
-- Job posting dates  
-- Job posting platforms  
-- Countries  
-- Yearly and hourly salaries  
-
-Interactive dashboards allow users to analyze trends, patterns, and correlations dynamically using **filters and slicers**.
+## 📌 Project Overview
+This Power BI report focuses on analyzing **job market salary data** using **Tables and Matrices** visuals.  
+The goal of this report is to present structured salary insights based on **job ratings, companies, schedules, and salary medians** in a clear and interactive format.
 
 ---
 
-## 🎯 Objectives
-- Understand how **skills correlate with job titles**  
-- Analyze the relationship between **job posting dates and skill demand**  
-- Compare **skill count across different job roles**  
-- Explore salary variations (yearly & hourly) by:
-  - Job title
-  - Country
-  - Job platform  
-- Enable **interactive data exploration**  
+## 🧩 Data Visualizations Used
+
+### 🔹 Table Visual
+The **Table** visual displays job-related details along with a **Job Star Rating**, which is derived based on multiple factors such as:
+
+- 💰 Salary
+- 🏢 Job Company
+- ⏰ Job Schedule
+
+This visualization helps users quickly compare job opportunities and identify higher-rated roles.
 
 ---
 
-## 📁 Dataset Summary
-- **Time Period:** Jan 01, 2023 – Dec 31, 2023  
-- **Geographic Scope:** Global  
-- **Key Attributes:**
-  - Job Title  
-  - Skills  
-  - Skill Count  
-  - Job Posted Date  
-  - Job Platform (Job Via)  
-  - Country  
-  - Yearly Salary  
-  - Hourly Salary  
+### 🔹 Matrix Visual
+The **Matrix** visual provides a salary comparison across different job titles, including:
+
+- **Job Title**
+- **Median Hourly Salary**
+- **Median Yearly Salary**
+
+This makes it easier to analyze salary differences between roles in both hourly and yearly perspectives.
 
 ---
 
-## 🛠 Tools & Technologies
-- Data Cleaning & Preparation  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization Tool (Power BI / Tableau / Excel)  
-- Interactive dashboard features:
-  - Slicers
-  - Filters
-  - Drill-down visuals  
+## 🖼️ Report Screenshot
+
+Below is a screenshot of the Power BI report showcasing the **Table and Matrix visuals**:
+
+![Power BI Tables and Matrices Screenshot](tables_matrices.png)
+
+> 📌 **Note:** Replace `tables_matrices.png` with your actual screenshot file name and ensure the image is uploaded to the same GitHub repository.
 
 ---
 
-## 📈 Visualizations & Analysis
-The dashboard includes multiple interactive visualizations such as:
-
-- **Skill vs Job Title Correlation**
-- **Skill Count Distribution by Job Role**
-- **Job Posting Trends Over Time**
-- **Skill Demand by Country**
-- **Salary Analysis**
-  - Yearly Salary vs Job Title
-  - Hourly Salary vs Country
-- **Job Platform Comparison**
-  - Skill demand by job posting source  
-
-Users can apply slicers to filter data by:
-- Job Title  
-- Country  
-- Skill Type  
-- Job Platform  
-- Date Range  
+## 🛠️ Tools & Technologies
+- **Power BI Desktop**
+- **Job Market Dataset**
+- Tables & Matrix Visuals
+- Data Modeling & Measures
 
 ---
 
-## 🔍 Key Insights
-- Identifies high-demand skills across different job roles  
-- Shows how skill requirements change over time  
-- Highlights salary differences by role and region  
-- Reveals platform-wise job and skill distribution  
+## 🎯 Key Insights
+- Job star ratings allow quick evaluation of job quality
+- Matrix view simplifies comparison between hourly and yearly salaries
+- Structured visuals improve readability and decision-making
 
 ---
 
-## 🚀 How to Use
-1. Open the dashboard or visualization file  
-2. Use slicers to select job titles, countries, or platforms  
-3. Apply filters to analyze skills and salary trends  
-4. Explore correlations using interactive charts  
+## 📂 Repository Contents
+- `README.md` – Project documentation  
+- `tables_matrices.png` – Power BI report screenshot  
+- Power BI report file (`.pbix`)
 
 ---
 
-## 📌 Future Enhancements
-- Add predictive analysis for salary trends  
-- Include experience-level and education requirements  
-- Extend analysis to multiple years  
-- Automate data refresh and pipeline  
+## ✅ How to Use
+1. Download the `.pbix` file
+2. Open it using **Power BI Desktop**
+3. Interact with the table and matrix visuals to explore job salary insights
 
 ---
 
-## 👤 Author
-**Your Name**  
-Data Analyst  
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+## 📬 Author
+**Nismi**
+
