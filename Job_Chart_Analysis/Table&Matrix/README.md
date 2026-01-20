@@ -1,70 +1,84 @@
-# 📊 Power BI Tables & Matrices – Job Market Salary Analysis
+# 📊 Power BI Job Salary Analysis
 
 ## 📌 Project Overview
-This Power BI report focuses on analyzing **job market salary data** using **Tables and Matrices** visuals.  
-The goal of this report is to present structured salary insights based on **job ratings, companies, schedules, and salary medians** in a clear and interactive format.
+This Power BI report provides a **visual analysis of job salaries** using Tables and Matrices.  
+It helps users quickly explore **median yearly salaries**, see trends, and filter data by salary ranges.
 
 ---
 
 ## 🧩 Data Visualizations Used
 
 ### 🔹 Table Visual
-The **Table** visual displays job-related details along with a **Job Star Rating**, which is derived based on multiple factors such as:
+The **Table** visual displays:
 
-- 💰 Salary
-- 🏢 Job Company
-- ⏰ Job Schedule
+- **Job Title**
+- **Median Yearly Salary**
 
-This visualization helps users quickly compare job opportunities and identify higher-rated roles.
+It allows users to quickly compare salaries across different job titles in a structured tabular format.
 
 ---
 
 ### 🔹 Matrix Visual
-The **Matrix** visual provides a salary comparison across different job titles, including:
+The **Matrix** visual includes:
 
-- **Job Title**
-- **Median Hourly Salary**
+- **Job**
 - **Median Yearly Salary**
+- **Sparkline** (trend visualization)
 
-This makes it easier to analyze salary differences between roles in both hourly and yearly perspectives.
+This makes it easier to identify trends and compare salaries across jobs over time or categories.
 
 ---
 
-## 🖼️ Report Screenshot
+### 🔹 Filters
+The report includes **interactive filters**:
 
-Below is a screenshot of the Power BI report showcasing the **Table and Matrix visuals**:
+- **Salary Filter:** Allows slicing and dicing data based on salary ranges.
+- Users can dynamically adjust the view to focus on specific salary brackets or job categories.
 
-![Power BI Tables and Matrices Screenshot](tables_matrices.png)
+---
 
-> 📌 **Note:** Replace `tables_matrices.png` with your actual screenshot file name and ensure the image is uploaded to the same GitHub repository.
+## 🖼️ Report Screenshots
+
+### Power BI Table
+![Power BI Table Screenshot](images/excel_salary.png)
+
+### Power BI Matrix with Sparkline
+![Power BI Matrix Screenshot](images/matrix_sparkline.png)
+
+> 📌 **Note:** Replace `excel_salary.png` and `matrix_sparkline.png` with your actual screenshot file names in the `images/` folder.
 
 ---
 
 ## 🛠️ Tools & Technologies
 - **Power BI Desktop**
-- **Job Market Dataset**
-- Tables & Matrix Visuals
-- Data Modeling & Measures
+- **Tables & Matrices Visuals**
+- **Sparkline Charts**
+- **Interactive Filters**
 
 ---
 
 ## 🎯 Key Insights
-- Job star ratings allow quick evaluation of job quality
-- Matrix view simplifies comparison between hourly and yearly salaries
-- Structured visuals improve readability and decision-making
+- Median yearly salaries vary across job titles.
+- Sparkline trends highlight salary growth or patterns.
+- Filters allow focused analysis by salary range.
 
 ---
 
 ## 📂 Repository Contents
 - `README.md` – Project documentation  
-- `tables_matrices.png` – Power BI report screenshot  
+- `images/` – Screenshots of Power BI visuals  
 - Power BI report file (`.pbix`)
 
 ---
 
 ## ✅ How to Use
-1. Download the `.pbix` file
-2. Open it using **Power BI Desktop**
-3. Interact with the table and matrix visuals to explore job salary insights
+1. Download the `.pbix` file.
+2. Open it in **Power BI Desktop**.
+3. Use the **Table** to compare job titles and yearly median salaries.
+4. Use the **Matrix** and **sparklines** to explore trends across jobs.
+5. Apply the **Salary filter** to narrow down your analysis.
 
+---
 
+## 📬 Author
+**Nismi**
