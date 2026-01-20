@@ -10,12 +10,12 @@ The report focuses on **median salary analysis, degree requirements, and country
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="images/overview.png" width="800" alt="Dashboard Overview">
+  <img src="/images/overview.png" width="800" alt="Dashboard Overview">
 </p>
 
 <p align="center">
-  <img src="images/fitler.png" width="800" alt="Bookmarks and Buttons Interaction">
-</p>
+  <img src="/images/filter.png" width="800" alt="Dashboard Overview">
+</p
 
 ---
 
@@ -98,13 +98,6 @@ All interactions are handled using **Power BI Bookmarks**, not visual-level filt
 ## 🛠 Tools & Skills
 - Power BI  
 - Bookmarks & Buttons  
-- Slicers & Cross-filtering  
+- Slicers 
 - Data Visualization & Storytelling  
 
----
-
-## 📎 Use Case
-Ideal for:
-- Power BI portfolio
-- Dashboard UI/UX demonstration
-- Academic or interview evaluation
