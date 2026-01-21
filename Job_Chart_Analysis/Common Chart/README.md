@@ -61,7 +61,13 @@ The purpose of this report is to show how various charts can be used effectively
 ## 🖼️ Report Screenshots
 
 ### Common Charts Overview
-![Common Charts Overview](images/bar_chart.png)
+![Common Charts Overview](/images/bar_chart.png)
+
+<p align="center">
+  <img src="/images/matrix_table.png" width="800" alt="Table & Matrices ">
+</p
+
+
 
 ### Salary & Job Distribution Analysis
 ![Salary Distribution](images/common_charts_2.png)
