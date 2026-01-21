@@ -65,17 +65,20 @@ The purpose of this report is to show how various charts can be used effectively
   <img src="/images/area_chart.png" width="800" alt="Common Charts">
 </p
 
+---
 <p align="center">
   <img src="/images/tree_map.png" width="800" alt="Common Charts">
+</p
+
+---
+<p align="center">
+  <img src="/images/bar_chart.png" width="800" alt="Common Charts ">
 </p
 
 
 
 > 📌 **Note:** Upload these images inside the `images/` folder and ensure the file names match exactly.
 
-<p align="center">
-  <img src="/images/bar_chart.png" width="800" alt="Common Charts ">
-</p
 
 ---
 
