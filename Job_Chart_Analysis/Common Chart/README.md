@@ -60,9 +60,6 @@ The purpose of this report is to show how various charts can be used effectively
 
 ## 🖼️ Report Screenshots
 
-<p align="center">
-  <img src="/images/bar_chart.png" width="800" alt="Common Charts ">
-</p
 
 <p align="center">
   <img src="/images/area_chart.png" width="800" alt="Common Charts">
@@ -70,6 +67,9 @@ The purpose of this report is to show how various charts can be used effectively
 
 <p align="center">
   <img src="/images/tree_map.png" width="800" alt="Common Charts">
+</p
+<p align="center">
+  <img src="/images/bar_chart.png" width="800" alt="Common Charts ">
 </p
 
 
