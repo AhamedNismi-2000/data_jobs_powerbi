@@ -60,20 +60,19 @@ The purpose of this report is to show how various charts can be used effectively
 
 ## 🖼️ Report Screenshots
 
-### Common Charts Overview
-![Common Charts Overview](/images/bar_chart.png)
+<p align="center">
+  <img src="/images/bar_chart.png" width="800" alt="Table & Matrices ">
+</p
 
 <p align="center">
-  <img src="/images/matrix_table.png" width="800" alt="Table & Matrices ">
+  <img src="/images/area_chart.png" width="800" alt="Table & Matrices ">
+</p
+
+<p align="center">
+  <img src="/images/tree_map.png" width="800" alt="Table & Matrices ">
 </p
 
 
-
-### Salary & Job Distribution Analysis
-![Salary Distribution](images/common_charts_2.png)
-
-### Trends & Category Breakdown
-![Trends and Categories](images/common_charts_3.png)
 
 > 📌 **Note:** Upload these images inside the `images/` folder and ensure the file names match exactly.
 
