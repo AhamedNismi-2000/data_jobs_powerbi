@@ -1,106 +1,102 @@
-# 🌍 Global Job Market Analysis & Skill Correlation (2023)
+# 📊 Power BI Common Charts – Job Market Analysis
 
-## 📊 Project Overview
-This project presents a comprehensive **data analysis and visualization of global job postings** collected between **January 1, 2023 and December 31, 2023**.
+## 📌 Project Overview
+This Power BI report demonstrates the use of **common chart types** to perform **multiple job market analyses**.  
+Each visualization highlights different insights such as **salary distribution, job demand, company comparison, and trends**.
 
-The goal of this project is to explore **relationships and correlations** between:
-- Job titles  
-- Required skills and skill count  
-- Job posting dates  
-- Job posting platforms  
-- Countries  
-- Yearly and hourly salaries  
-
-Interactive dashboards allow users to analyze trends, patterns, and correlations dynamically using **filters and slicers**.
+The purpose of this report is to show how various charts can be used effectively for analytical and business decision-making.
 
 ---
 
-## 🎯 Objectives
-- Understand how **skills correlate with job titles**  
-- Analyze the relationship between **job posting dates and skill demand**  
-- Compare **skill count across different job roles**  
-- Explore salary variations (yearly & hourly) by:
-  - Job title
-  - Country
-  - Job platform  
-- Enable **interactive data exploration**  
+## 📈 Visualizations Used
+
+### 🔹 Bar Chart
+- Used to compare values such as **job titles vs salaries** or **job counts by category**.
+- Best for clear comparison between different job roles.
 
 ---
 
-## 📁 Dataset Summary
-- **Time Period:** Jan 01, 2023 – Dec 31, 2023  
-- **Geographic Scope:** Global  
-- **Key Attributes:**
-  - Job Title  
-  - Skills  
-  - Skill Count  
-  - Job Posted Date  
-  - Job Platform (Job Via)  
-  - Country  
-  - Yearly Salary  
-  - Hourly Salary  
+### 🔹 Stacked Bar Chart
+- Displays how multiple categories contribute to a total.
+- Useful for comparing **job counts or salaries across companies or job schedules**.
 
 ---
 
-## 🛠 Tools & Technologies
-- Data Cleaning & Preparation  
-- Exploratory Data Analysis (EDA)  
-- Data Visualization Tool (Power BI / Tableau / Excel)  
-- Interactive dashboard features:
-  - Slicers
-  - Filters
-  - Drill-down visuals  
+### 🔹 100% Stacked Bar Chart
+- Shows **percentage contribution** of each category.
+- Helps analyze **proportional distribution** regardless of total size.
 
 ---
 
-## 📈 Visualizations & Analysis
-The dashboard includes multiple interactive visualizations such as:
-
-- **Skill vs Job Title Correlation**
-- **Skill Count Distribution by Job Role**
-- **Job Posting Trends Over Time**
-- **Skill Demand by Country**
-- **Salary Analysis**
-  - Yearly Salary vs Job Title
-  - Hourly Salary vs Country
-- **Job Platform Comparison**
-  - Skill demand by job posting source  
-
-Users can apply slicers to filter data by:
-- Job Title  
-- Country  
-- Skill Type  
-- Job Platform  
-- Date Range  
+### 🔹 Area Map
+- Used to visualize **job distribution or salary trends across regions or countries**.
+- Provides geographical insights in an intuitive format.
 
 ---
 
-## 🔍 Key Insights
-- Identifies high-demand skills across different job roles  
-- Shows how skill requirements change over time  
-- Highlights salary differences by role and region  
-- Reveals platform-wise job and skill distribution  
+### 🔹 Line Chart
+- Represents **trends over time**, such as salary growth or job postings over years.
+- Ideal for identifying upward or downward patterns.
 
 ---
 
-## 🚀 How to Use
-1. Open the dashboard or visualization file  
-2. Use slicers to select job titles, countries, or platforms  
-3. Apply filters to analyze skills and salary trends  
-4. Explore correlations using interactive charts  
+### 🔹 Tree Map
+- Displays **hierarchical data** using rectangles.
+- Useful for analyzing **job categories and subcategories based on size or salary**.
 
 ---
 
-## 📌 Future Enhancements
-- Add predictive analysis for salary trends  
-- Include experience-level and education requirements  
-- Extend analysis to multiple years  
-- Automate data refresh and pipeline  
+### 🔹 Pie Chart
+- Shows the **share of each category** within a whole.
+- Suitable for quick percentage comparisons.
 
 ---
 
-## 👤 Author
-**Your Name**  
-Data Analyst  
-GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+### 🔹 Donut Chart
+- Similar to pie charts but offers better readability.
+- Used for showing **distribution of jobs or salary ranges**.
+
+---
+
+## 🖼️ Report Screenshots
+
+### Common Charts Overview
+![Common Charts Overview](images/common_charts_1.png)
+
+### Salary & Job Distribution Analysis
+![Salary Distribution](images/common_charts_2.png)
+
+### Trends & Category Breakdown
+![Trends and Categories](images/common_charts_3.png)
+
+> 📌 **Note:** Upload these images inside the `images/` folder and ensure the file names match exactly.
+
+---
+
+## 🛠️ Tools & Technologies
+- **Power BI Desktop**
+- **Bar, Stacked Bar, and 100% Stacked Bar Charts**
+- **Line, Area Map, Tree Map**
+- **Pie & Donut Charts**
+- **Interactive Filters & Slicers**
+
+---
+
+## 🎯 Key Insights
+- Different chart types reveal insights from multiple perspectives.
+- Percentage-based charts highlight proportional relationships.
+- Trend charts help understand changes over time.
+- Geographic visuals support location-based analysis.
+
+---
+
+## 📂 Repository Structure
+- `README.md` – Project documentation  
+- `images/` – Report screenshots  
+- Power BI report file (`.pbix`)
+
+---
+
+## ✅ How to Use
+1. Download the `.pbix` file.
+2. Open it in
