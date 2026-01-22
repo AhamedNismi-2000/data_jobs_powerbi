@@ -71,7 +71,7 @@ This provides a detailed, comparative view of job performance.
 ---
 
 ## 🖼️ Dashboard Screenshot (Home Page)
-![Job Dashboard Home Page](images/job_dashboard_home.png)
+![Job Dashboard Home Page](/images/job_dashboard_home.png)
 
 > 📌 Replace the image name with your actual screenshot uploaded inside the `images/` folder.
 
@@ -165,5 +165,3 @@ Used to analyze job benefits and requirements.
 
 ---
 
-## 📬 Author
-**Nismi**
