@@ -8,7 +8,7 @@ The report focuses on **median salary analysis, degree requirements, and country
 ---
 
 ## 📸 Dashboard Preview
-![Job Dashboard Drill-Through Page](/images/overview.png.png)
+![Job Dashboard Drill-Through Page](../images/overview.png.png)
 
 ![Job Dashboard Drill-Through Page](/images/filter.png.png)
 <p align="center">
