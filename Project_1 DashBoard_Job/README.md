@@ -127,7 +127,7 @@ Used to analyze job benefits and requirements.
 ---
 
 ## 🖼️ Dashboard Screenshot (Drill-Through Page)
-![Job Dashboard Drill-Through Page](images/job_dashboard_detail.png)
+![Job Dashboard Drill-Through Page](/images/job_dashboard_detail.png)
 
 > 📌 Replace the image name with your actual drill-through page screenshot.
 
