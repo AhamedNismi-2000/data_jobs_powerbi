@@ -1,151 +1,143 @@
 # 📊 Power BI Job Dashboard – Interactive Job Market Analysis
 
 ## 📌 Project Overview
-This **Job Dashboard** is an interactive Power BI report designed to analyze multiple aspects of the job market in a single view.  
-It enables users to explore **salary metrics, job demand, job quality, and work conditions** using cards, charts, slicers, and drill-through functionality.
+This **Job Dashboard** is an interactive Power BI report designed to analyze multiple dimensions of the job market.  
+It combines **cleaned data, calculated measures, and interactive visuals** to help users understand salary trends, job demand, benefits, and job distribution across locations.
 
-The dashboard is built with a **user-centric design**, making it easy to filter, drill down, and navigate between insights.
+The dashboard is optimized for **easy interaction, drill-through analysis, and decision-making**.
+
+---
+
+## 🧹 Data Preparation (Power Query)
+Before visualization, the dataset was cleaned and transformed using **Power Query**, including:
+
+- Removal of unnecessary and duplicate columns
+- Handling missing and null values
+- Standardizing job titles and categorical fields
+- Data type corrections for salary and date fields
+- Preparing fact tables for accurate aggregation
+
+This ensures **reliable and consistent analysis** across all visuals.
+
+---
+
+## 📐 Measures & Calculations
+Several DAX measures were created to support the dashboard, including:
+
+- **Median Yearly Salary**
+- **Median Hourly Salary**
+- **Job Count**
+- **Job Star Rating**
+  - Calculated based on salary-related metrics
+- Aggregated values used across cards, charts, and drill-through pages
 
 ---
 
 ## 🧭 Dashboard Structure
 
-### 🟦 Summary Cards
-The dashboard includes **four KPI cards** that provide quick insights:
+### 🟦 KPI Summary Cards
+The home page includes **four KPI cards**:
 
-- **Median Yearly Salary**
-- **Median Hourly Salary**
-- **Job Star Rating**  
-  - Calculated based on salary and job-related factors
-- **Total Job Count**
+- Median Yearly Salary  
+- Median Hourly Salary  
+- Job Star Rating  
+- Total Job Count  
 
-These cards give an instant overview of the job market status.
+These provide a quick overview of the job market.
 
 ---
 
 ### 🎛️ Filters & Navigation
+- **Job Title Slicer**  
+  Allows users to filter the entire dashboard by selected job title.
 
-#### 🔹 Job Title Slicer
-- Allows users to **filter the entire dashboard by job title**
-- Updates all visuals dynamically based on selection
-
-#### 🔹 Drill-Down / Drill-Through Button
-- Enables users to **drill through** using a selected job title or value
-- Navigates to a detailed analysis page for deeper insights
+- **Drill-Through Button**  
+  Enables navigation to a detailed page based on the selected job title or visual value.
 
 ---
 
 ## 📈 Visualizations – Home Page
 
-### 🔹 Line Chart
-- **X-axis:** Job Posted Date  
-- **Y-axis:** Job Count  
-- Shows job posting trends over time
+- **Line Chart**  
+  - X-axis: Job Posted Date  
+  - Y-axis: Job Count  
+
+- **Scatter Plot**  
+  - Median Hourly Salary vs Median Yearly Salary  
+  - Labeled by Job Title  
+
+- **Bar Chart**  
+  - X-axis: Job Count  
+  - Y-axis: Job Title  
+
+- **Matrix Visual**  
+  - Job Title  
+  - Median Hourly Salary  
+  - Median Yearly Salary  
+  - Job Count  
+  - Sparkline for trend visualization  
 
 ---
 
-### 🔹 Scatter Plot
-- Displays **Median Hourly Salary vs Median Yearly Salary**
-- Each data point is **labeled by Job Title**
-- Helps identify high-paying roles and salary distribution
+## 🖼️ Dashboard Screenshot – Home Page
+<p align="center">
+  <img src="images/job_dashboard_home.png" width="800" alt="Job Dashboard Home Page">
+</p>
 
 ---
 
-### 🔹 Bar Chart (Job Demand)
-- **X-axis:** Job Count  
-- **Y-axis:** Job Title  
-- Highlights demand across different job roles
+## 🔍 Drill-Through Page – Detailed Analysis
 
----
-
-### 🔹 Matrix Visual
-Includes:
-- **Job Title**
-- **Median Hourly Salary**
-- **Median Yearly Salary**
-- **Job Count**
-- **Sparkline** for trend visualization
-
-This provides a detailed, comparative view of job performance.
-
----
-
-## 🖼️ Dashboard Screenshot (Home Page)
-![Job Dashboard Home Page](/images/job_dashboard_home.png)
-
-> 📌 Replace the image name with your actual screenshot uploaded inside the `images/` folder.
-
----
-
-## 🔍 Drill-Through Page – Detailed Job Analysis
-
-### 🏠 Navigation
+### 🧭 Navigation
 - **Home Icon Button** to return to the main dashboard
 
----
-
-### 📌 Selected Job Context
+### 📌 Context Awareness
 - Displays the **Job Title selected** from the home page
-- Ensures context-aware analysis
-
----
 
 ### 📊 Detailed Visuals
+- **Gauge Cards**
+  - Median Hourly Salary
+  - Median Yearly Salary
 
-#### 🔹 Gauge Cards
-- **Median Hourly Salary**
-- **Median Yearly Salary**
-- Helps visualize salary position against defined ranges
+- **Pie Charts**
+  - Work From Home availability
+  - Insurance availability
+  - Degree requirement
 
----
+- **Map Visual**
+  - Job posting distribution by country
 
-#### 🔹 Pie Charts
-- **Work From Home Availability**
-- **Employees With / Without Insurance**
-- **Jobs With Degree Requirement**
+- **Bar Chart**
+  - X-axis: Job Count
+  - Y-axis: Job posting source
 
-Used to analyze job benefits and requirements.
-
----
-
-#### 🔹 Map Visual
-- Shows **Job Posting Countries**
-- Helps identify geographical demand
+- **Tree Map**
+  - Job schedule type distribution
 
 ---
 
-#### 🔹 Bar Chart (Job Source)
-- **X-axis:** Job Count  
-- **Y-axis:** Job Posting Source (via where the job is posted)
-
----
-
-#### 🔹 Tree Map
-- Represents **Job Schedule Type**
-- Visualizes distribution across full-time, part-time, contract, etc.
-
----
-
-## 🖼️ Dashboard Screenshot (Drill-Through Page)
-![Job Dashboard Drill-Through Page](/images/job_dashboard_detail.png)
-
-> 📌 Replace the image name with your actual drill-through page screenshot.
+## 🖼️ Dashboard Screenshot – Drill-Through Page
+<p align="center">
+  <img src="images/job_dashboard_detail.png" width="800" alt="Job Dashboard Drill-Through Page">
+</p>
 
 ---
 
 ## 🛠️ Tools & Technologies
-- **Power BI Desktop**
-- **DAX Measures**
-- Cards, Line, Bar, Scatter, Pie, Gauge, Map & Tree Map Visuals
+- Power BI Desktop
+- Power Query (ETL & Data Cleaning)
+- DAX Measures
+- Cards, Line, Bar, Scatter, Matrix, Gauge, Pie, Map & Tree Map visuals
 - Slicers, Drill-Through & Navigation Buttons
 
 ---
 
 ## 🎯 Key Features
-- Fully interactive job title filtering
-- Drill-through analysis for detailed exploration
-- Clear navigation using buttons and icons
-- Combination of summary KPIs and detailed visuals
+- Cleaned and transformed data for accuracy
+- Median-based salary analysis
+- Interactive filtering by job title
+- Drill-through navigation for detailed insights
+- User-friendly and intuitive dashboard design
 
 ---
 
@@ -157,11 +149,13 @@ Used to analyze job benefits and requirements.
 ---
 
 ## ✅ How to Use
-1. Open the Power BI report file in **Power BI Desktop**.
-2. Use the **Job Title slicer** to filter the dashboard.
-3. Review key metrics using the **summary cards**.
-4. Click the **drill-through button** to navigate to the detailed view.
+1. Open the `.pbix` file in **Power BI Desktop**.
+2. Use the **Job Title slicer** to filter data.
+3. Review KPIs and charts on the home page.
+4. Click the **drill-through button** for detailed analysis.
 5. Use the **home icon** to return to the main dashboard.
 
 ---
 
+## 📬 Author
+**Nismi**
