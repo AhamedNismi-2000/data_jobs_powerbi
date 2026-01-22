@@ -81,7 +81,7 @@ These provide a quick overview of the job market.
 
 ## 🖼️ Dashboard Screenshot – Home Page
 <p align="center">
-  <img src="/images/job_dashboard_home.png" width="800" alt="Job Dashboard Home Page">
+  <img src="/images/job_dashboard_home.png" width="1200" alt="Job Dashboard Home Page">
 </p>
 
 ---
@@ -118,7 +118,7 @@ These provide a quick overview of the job market.
 
 ## 🖼️ Dashboard Screenshot – Drill-Through Page
 <p align="center">
-  <img src="/images/job_dashboard_detail.png" width="800" alt="Job Dashboard Drill-Through Page">
+  <img src="/images/job_dashboard_detail.png" width="1200" alt="Job Dashboard Drill-Through Page">
 </p>
 
 ---
