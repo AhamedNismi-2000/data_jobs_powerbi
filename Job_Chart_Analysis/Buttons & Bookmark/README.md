@@ -10,11 +10,11 @@ The report focuses on **median salary analysis, degree requirements, and country
 ## 📸 Dashboard Preview
 
 <p align="center">
-  <img src="/images/overview.png" width="800" alt="Dashboard Overview">
+  <img src="/images/overview.png" width="1200" alt="Dashboard Overview">
 </p>
 
 <p align="center">
-  <img src="/images/filter.png" width="800" alt="Dashboard Overview">
+  <img src="/images/filter.png" width="1200" alt="Dashboard Overview">
 </p
 
 ---
