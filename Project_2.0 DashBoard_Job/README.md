@@ -155,7 +155,3 @@ These provide a quick overview of the job market.
 4. Click the **drill-through button** for detailed analysis.
 5. Use the **home icon** to return to the main dashboard.
 
----
-
-## 📬 Author
-**Nismi**
